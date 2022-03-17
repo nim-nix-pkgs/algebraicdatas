@@ -1,0 +1,611 @@
+{
+  "nodes": {
+    "algebraicdatas-main": {
+      "inputs": {
+        "ast_pattern_matching": "ast_pattern_matching",
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "macroutils": "macroutils",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "optionsutils": "optionsutils",
+        "src-algebraicdatas-main": "src-algebraicdatas-main"
+      },
+      "locked": {
+        "dir": "main",
+        "lastModified": 1647312097,
+        "narHash": "sha256-tfTEoZRVQgSwwQlmNJXF7wPoOjeTEJoPzs9u08cX7fM=",
+        "owner": "nim-nix-pkgs",
+        "repo": "algebraicdatas",
+        "rev": "dd43dcc2acb2e134365727c6bd0b25fbb83f8d2d",
+        "type": "github"
+      },
+      "original": {
+        "dir": "main",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "algebraicdatas",
+        "type": "github"
+      }
+    },
+    "ast_pattern_matching": {
+      "inputs": {
+        "ast_pattern_matching-master": "ast_pattern_matching-master",
+        "flakeNimbleLib": [
+          "algebraicdatas-main",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "algebraicdatas-main",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647398323,
+        "narHash": "sha256-ou9ljKRJhHfjA/ZUOVt590zNPVGboDDygXPmgen1YU0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "ast_pattern_matching",
+        "rev": "21ad25077cf85efbf8c144752433e9dd7a4a33e1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "ast_pattern_matching",
+        "type": "github"
+      }
+    },
+    "ast_pattern_matching-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "algebraicdatas-main",
+          "ast_pattern_matching",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "algebraicdatas-main",
+          "ast_pattern_matching",
+          "nixpkgs"
+        ],
+        "src-ast_pattern_matching-master": "src-ast_pattern_matching-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647310837,
+        "narHash": "sha256-q2XQxYsUnTeYMHS6yhJSsnJGszAbwpbZT5LGZRILRn8=",
+        "owner": "nim-nix-pkgs",
+        "repo": "ast_pattern_matching",
+        "rev": "9f6acf1117ef3689a23e4884cddb8849876a3362",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "ast_pattern_matching",
+        "type": "github"
+      }
+    },
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1646967037,
+        "narHash": "sha256-BoEqkGzLVnFICrF15wczZJrfF1vMVngRzF5cEgFzdzU=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "028e7596fdb918b72a295d220d48417ab2f5dfd1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "macroutils": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "algebraicdatas-main",
+          "flakeNimbleLib"
+        ],
+        "macroutils-master": "macroutils-master",
+        "macroutils-v1_1_0": "macroutils-v1_1_0",
+        "macroutils-v1_2_0": "macroutils-v1_2_0",
+        "nixpkgs": [
+          "algebraicdatas-main",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647397899,
+        "narHash": "sha256-OEvrU22f43f1XeIsvV/Ki6By3b8cPjpFptwU5TMhiw0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "macroutils",
+        "rev": "9a58463fe0c84f6ef97a15e295618765bc2229dc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "macroutils",
+        "type": "github"
+      }
+    },
+    "macroutils-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "algebraicdatas-main",
+          "macroutils",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "algebraicdatas-main",
+          "macroutils",
+          "nixpkgs"
+        ],
+        "src-macroutils-master": "src-macroutils-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647311120,
+        "narHash": "sha256-xLhPwy3q/VQFYwLlKxDm1zNy5gqxbBVUO7DHWSdy/8w=",
+        "owner": "nim-nix-pkgs",
+        "repo": "macroutils",
+        "rev": "f0fb0435182b00fb39feb0998acfae41eb6a051d",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "macroutils",
+        "type": "github"
+      }
+    },
+    "macroutils-v1_1_0": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "algebraicdatas-main",
+          "macroutils",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "algebraicdatas-main",
+          "macroutils",
+          "nixpkgs"
+        ],
+        "src-macroutils-v1_1_0": "src-macroutils-v1_1_0"
+      },
+      "locked": {
+        "dir": "v1_1_0",
+        "lastModified": 1647311120,
+        "narHash": "sha256-xLhPwy3q/VQFYwLlKxDm1zNy5gqxbBVUO7DHWSdy/8w=",
+        "owner": "nim-nix-pkgs",
+        "repo": "macroutils",
+        "rev": "f0fb0435182b00fb39feb0998acfae41eb6a051d",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v1_1_0",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "macroutils",
+        "type": "github"
+      }
+    },
+    "macroutils-v1_2_0": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "algebraicdatas-main",
+          "macroutils",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "algebraicdatas-main",
+          "macroutils",
+          "nixpkgs"
+        ],
+        "src-macroutils-v1_2_0": "src-macroutils-v1_2_0"
+      },
+      "locked": {
+        "dir": "v1_2_0",
+        "lastModified": 1647311120,
+        "narHash": "sha256-xLhPwy3q/VQFYwLlKxDm1zNy5gqxbBVUO7DHWSdy/8w=",
+        "owner": "nim-nix-pkgs",
+        "repo": "macroutils",
+        "rev": "f0fb0435182b00fb39feb0998acfae41eb6a051d",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v1_2_0",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "macroutils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-+8mazL4KLh6VltXYJc5+QFA5Q1i+Uh/TadRl9/+qcx8=",
+        "path": "/nix/store/gddrvlqs5qf1bp3kc80gp3qg5vm8kj76-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "optionsutils": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "algebraicdatas-main",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "algebraicdatas-main",
+          "nixpkgs"
+        ],
+        "optionsutils-master": "optionsutils-master",
+        "optionsutils-v1_1_0": "optionsutils-v1_1_0",
+        "optionsutils-v1_1_1": "optionsutils-v1_1_1",
+        "optionsutils-v1_1_2": "optionsutils-v1_1_2",
+        "optionsutils-v1_2_0": "optionsutils-v1_2_0"
+      },
+      "locked": {
+        "lastModified": 1647400073,
+        "narHash": "sha256-n7OdG5hWfjp4nEQk2v1rtsaEnpKEPafvATTzalKvatI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "optionsutils",
+        "rev": "f756509369f308672dedf05fa937d7436de61fcc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "optionsutils",
+        "type": "github"
+      }
+    },
+    "optionsutils-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "algebraicdatas-main",
+          "optionsutils",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "algebraicdatas-main",
+          "optionsutils",
+          "nixpkgs"
+        ],
+        "src-optionsutils-master": "src-optionsutils-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647311284,
+        "narHash": "sha256-kn6xu6OOM3LnnbFxZaE8ZdxrvF2v4axqots0tvzeqiE=",
+        "owner": "nim-nix-pkgs",
+        "repo": "optionsutils",
+        "rev": "6b5432976e8e390f36d3e7bc1a37e13085e1e114",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "optionsutils",
+        "type": "github"
+      }
+    },
+    "optionsutils-v1_1_0": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "algebraicdatas-main",
+          "optionsutils",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "algebraicdatas-main",
+          "optionsutils",
+          "nixpkgs"
+        ],
+        "src-optionsutils-v1_1_0": "src-optionsutils-v1_1_0"
+      },
+      "locked": {
+        "dir": "v1_1_0",
+        "lastModified": 1647311284,
+        "narHash": "sha256-kn6xu6OOM3LnnbFxZaE8ZdxrvF2v4axqots0tvzeqiE=",
+        "owner": "nim-nix-pkgs",
+        "repo": "optionsutils",
+        "rev": "6b5432976e8e390f36d3e7bc1a37e13085e1e114",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v1_1_0",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "optionsutils",
+        "type": "github"
+      }
+    },
+    "optionsutils-v1_1_1": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "algebraicdatas-main",
+          "optionsutils",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "algebraicdatas-main",
+          "optionsutils",
+          "nixpkgs"
+        ],
+        "src-optionsutils-v1_1_1": "src-optionsutils-v1_1_1"
+      },
+      "locked": {
+        "dir": "v1_1_1",
+        "lastModified": 1647311284,
+        "narHash": "sha256-kn6xu6OOM3LnnbFxZaE8ZdxrvF2v4axqots0tvzeqiE=",
+        "owner": "nim-nix-pkgs",
+        "repo": "optionsutils",
+        "rev": "6b5432976e8e390f36d3e7bc1a37e13085e1e114",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v1_1_1",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "optionsutils",
+        "type": "github"
+      }
+    },
+    "optionsutils-v1_1_2": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "algebraicdatas-main",
+          "optionsutils",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "algebraicdatas-main",
+          "optionsutils",
+          "nixpkgs"
+        ],
+        "src-optionsutils-v1_1_2": "src-optionsutils-v1_1_2"
+      },
+      "locked": {
+        "dir": "v1_1_2",
+        "lastModified": 1647311284,
+        "narHash": "sha256-kn6xu6OOM3LnnbFxZaE8ZdxrvF2v4axqots0tvzeqiE=",
+        "owner": "nim-nix-pkgs",
+        "repo": "optionsutils",
+        "rev": "6b5432976e8e390f36d3e7bc1a37e13085e1e114",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v1_1_2",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "optionsutils",
+        "type": "github"
+      }
+    },
+    "optionsutils-v1_2_0": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "algebraicdatas-main",
+          "optionsutils",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "algebraicdatas-main",
+          "optionsutils",
+          "nixpkgs"
+        ],
+        "src-optionsutils-v1_2_0": "src-optionsutils-v1_2_0"
+      },
+      "locked": {
+        "dir": "v1_2_0",
+        "lastModified": 1647311284,
+        "narHash": "sha256-kn6xu6OOM3LnnbFxZaE8ZdxrvF2v4axqots0tvzeqiE=",
+        "owner": "nim-nix-pkgs",
+        "repo": "optionsutils",
+        "rev": "6b5432976e8e390f36d3e7bc1a37e13085e1e114",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v1_2_0",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "optionsutils",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "algebraicdatas-main": "algebraicdatas-main",
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs"
+      }
+    },
+    "src-algebraicdatas-main": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1628750988,
+        "narHash": "sha256-EIQdA/SB01HgYuwOkj20We9zM3+TUTYfkyFKkCSfb34=",
+        "owner": "chocobo333",
+        "repo": "AlgebraicDataTypes",
+        "rev": "9eeaac2453ec0a642771ca9095df5a3a7bfc4791",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chocobo333",
+        "ref": "refs/heads/main",
+        "repo": "AlgebraicDataTypes",
+        "type": "github"
+      }
+    },
+    "src-ast_pattern_matching-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1611740200,
+        "narHash": "sha256-xqkVgVuiVqRDHWadxfE7pCHNmEdQudiUvr/CvAhBQrs=",
+        "owner": "krux02",
+        "repo": "ast-pattern-matching",
+        "rev": "1a866d2e536541c032a50323f36bb482df9e3b39",
+        "type": "github"
+      },
+      "original": {
+        "owner": "krux02",
+        "ref": "refs/heads/master",
+        "repo": "ast-pattern-matching",
+        "type": "github"
+      }
+    },
+    "src-macroutils-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1638527206,
+        "narHash": "sha256-xdheMbZAuxfBLsyBQnCkjClptKs9G1y2ZLQJ0bE2eUM=",
+        "owner": "PMunch",
+        "repo": "macroutils",
+        "rev": "e6357d428f3888c3b0c068a9e2bd0cf66d25e3cd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "PMunch",
+        "ref": "refs/heads/master",
+        "repo": "macroutils",
+        "type": "github"
+      }
+    },
+    "src-macroutils-v1_1_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1585844702,
+        "narHash": "sha256-ZaWeEqzpcKMs930SvWFMlQf5M1qmax6JCpOdwbQlwYo=",
+        "owner": "PMunch",
+        "repo": "macroutils",
+        "rev": "4f178a21e57cb842f112a965d25cda93ac4d68e5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "PMunch",
+        "ref": "refs/tags/v1.1.0",
+        "repo": "macroutils",
+        "type": "github"
+      }
+    },
+    "src-macroutils-v1_2_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1591265350,
+        "narHash": "sha256-HGsNbldfhjAEaKsj+DZuMDwhhaLWHlibOWZ3xklKEds=",
+        "owner": "PMunch",
+        "repo": "macroutils",
+        "rev": "b460c6804c97df8cfdc80c308b574ae90b30ac61",
+        "type": "github"
+      },
+      "original": {
+        "owner": "PMunch",
+        "ref": "refs/tags/v1.2.0",
+        "repo": "macroutils",
+        "type": "github"
+      }
+    },
+    "src-optionsutils-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1614671837,
+        "narHash": "sha256-wgk9NTbM6RgR1I6xqayP9dUhBbrUrvyMyckL5/3TBy4=",
+        "owner": "PMunch",
+        "repo": "nim-optionsutils",
+        "rev": "afd76544ea3996b221d8a159f5413cdb91f7f7f6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "PMunch",
+        "ref": "refs/heads/master",
+        "repo": "nim-optionsutils",
+        "type": "github"
+      }
+    },
+    "src-optionsutils-v1_1_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1576789570,
+        "narHash": "sha256-bUUH3dW+N3LGsmx4oeMjG26jZfRx2tvF+PiehvGlQQI=",
+        "owner": "PMunch",
+        "repo": "nim-optionsutils",
+        "rev": "2c983cb5440657689b68663d9a6c700bdd3a076d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "PMunch",
+        "ref": "refs/tags/v1.1.0",
+        "repo": "nim-optionsutils",
+        "type": "github"
+      }
+    },
+    "src-optionsutils-v1_1_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1583498162,
+        "narHash": "sha256-FtSanxmTCPLVdeEw4yrRwZ+7ek1AfEsOT6ZmAfoDNh0=",
+        "owner": "PMunch",
+        "repo": "nim-optionsutils",
+        "rev": "a99d9e1cb01d44dca5c4ec8ddda949868f0155da",
+        "type": "github"
+      },
+      "original": {
+        "owner": "PMunch",
+        "ref": "refs/tags/v1.1.1",
+        "repo": "nim-optionsutils",
+        "type": "github"
+      }
+    },
+    "src-optionsutils-v1_1_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1584524408,
+        "narHash": "sha256-uDzKHMxTs23vVkQtS/UvrzKOHIG0nS2348QkRw8nNVY=",
+        "owner": "PMunch",
+        "repo": "nim-optionsutils",
+        "rev": "7484fbd126e7963920392de2f5098cebcce18fd0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "PMunch",
+        "ref": "refs/tags/v1.1.2",
+        "repo": "nim-optionsutils",
+        "type": "github"
+      }
+    },
+    "src-optionsutils-v1_2_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1598516998,
+        "narHash": "sha256-Jp30KiFunV3BuFR/fv+JCxcQJ8N318JM4TlSoY+zwJY=",
+        "owner": "PMunch",
+        "repo": "nim-optionsutils",
+        "rev": "3810fdad719abcb3994bafee91a0fed350c0a7fc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "PMunch",
+        "ref": "refs/tags/v1.2.0",
+        "repo": "nim-optionsutils",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
